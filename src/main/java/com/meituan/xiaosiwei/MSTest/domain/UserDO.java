@@ -5,31 +5,49 @@ package com.meituan.xiaosiwei.MSTest.domain;
  */
 public class UserDO {
 
-    private int user_id;
-    private String user_name;
-    private int score;
+    private int userID;
+    private String userName;
+    private int password;
+    private String realName;
+    private int storage;
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserID() {
+        return userID;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public int getScore() {
-        return score;
+    public int getPassword() {
+        return password;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+    public void setPassword(int password) {
+        this.password = password;
+    }
+
+    public String getRealName() {
+        return realName;
+    }
+
+    public void setRealName(String realName) {
+        this.realName = realName;
+    }
+
+    public int getStorage() {
+        return storage;
+    }
+
+    public void setStorage(int storage) {
+        this.storage = storage;
     }
 }
