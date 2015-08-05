@@ -12,7 +12,7 @@
     <title>新增用户</title>
 </head>
 <body>
-  <form method="post" action="<c:url value="/user/register"/>">
+  <form method="post" action="<c:url value="/user/register.html"/>">
     <table>
       <tr>
         <td>用户名:</td>
